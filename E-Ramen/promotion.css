@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Kotta One";
+    background-image: url(homeAsset/image\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.top_nav{
+    background-color: #DB3A3A;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.top_nav a{
+    color: white;
+}
+
+.logo img{
+    width: 80%;
+    margin-right: 150px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px 50px;
+    font-size: 350%;
+    text-decoration: none;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.promotionThing{
+    display: flex;
+    justify-content: center;
+}
+
+.promotionThing img{
+    margin-top: 60px;
+    width: 70%;
+}
+
+.ourRamens{
+    display: flex;
+    justify-content: center;
+}
+
+.ourRamens img{
+    margin-top: 60px;
+    width: 30%;
+}
+
+.bestRamen1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestRamen1 img{
+    margin-top: 30px;
+    padding: 15px 50px;
+}
+
+.bestRamen1 h1{
+    text-align: center;
+    color: white;
+}
+
+.bestRamen2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestRamen2 img{
+    margin-top: 30px;
+    padding: 15px 50px;
+}
+
+.bestRamen2 h1{
+    text-align: center;
+    color: white;
+}
+
+.bottom_nav{
+    display: flex;
+    justify-content: center;
+    background-image: url(homeAsset/Rectangle\ 3.svg);
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.bottom_nav a{
+    margin: 30px;
+}
